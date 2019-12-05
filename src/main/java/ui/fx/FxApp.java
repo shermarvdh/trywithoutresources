@@ -15,7 +15,7 @@ public class FxApp extends Application{
 
         @Override
         public void start(Stage primaryStage) throws IOException {
-            Parent root = FXMLLoader.load(getClass().getResource("/fxml/Show"));
+            Parent root = FXMLLoader.load(getClass().getResource("/fxml/ShowProducts"));
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
             primaryStage.show();
