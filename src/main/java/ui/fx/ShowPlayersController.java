@@ -25,6 +25,7 @@ public class ShowPlayersController {
     void initialize() {
         assert ta_allPlayers != null : "fx:id=\"ta_allPlayers\" was not injected: check your FXML file 'Untitled'.";
         players = Repo.getPlayerRepo().getPlayers();
+        addPlayersToTextArea();
     }
 
     @FXML
